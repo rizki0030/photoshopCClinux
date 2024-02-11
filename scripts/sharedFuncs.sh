@@ -79,7 +79,7 @@ function launcher() {
 
     #create desktop entry
     local desktop_entry="$PWD/photoshop.desktop"
-    local desktop_entry_dest="/home/$USER/.local/share/applications/photoshop.desktop"
+    local desktop_entry_dest="/home/catalyst/.local/share/applications/photoshop.desktop"
     
     if [ -f "$desktop_entry" ];then
         show_message "desktop entry detected..."
