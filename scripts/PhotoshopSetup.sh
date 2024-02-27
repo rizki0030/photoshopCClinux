@@ -73,7 +73,7 @@ function replacement() {
     local filename="replacement.tgz"
     local filemd5="6441a8e77c082897a99c2b7b588c9ac4"
     local filelink="https://www.dropbox.com/s/17pv6aezl7wz6gs/replacement.tgz?dl=1"
-    local filepath="/home/catalyst/Desktop"
+    local filepath="$CACHE_PATH/$filename"
 
     download_component $filepath $filemd5 $filelink $filename
 
