@@ -96,7 +96,7 @@ function replacement() {
 function install_photoshopSE() {
     local filename="photoshopCC-V19.1.6-2018x64.tgz"
     local filemd5="b63f6ed690343ee12b6195424f94c33f"
-    local filelink="https://drive.google.com/uc?id=1kDVL7xjcyxlQD7DTo5QI71KkXg1sfT1t"
+    local filelink="https://drive.usercontent.google.com/download?id=1kDVL7xjcyxlQD7DTo5QI71KkXg1sfT1t&authuser=0&confirm=t&uuid=b51524f3-0cad-4f1c-a2d0-d6897b46192b&at=APZUnTXBr6d3_mqDr6gKpjSxIFeG%3A1709689232583"
     # local filelink="http://127.0.0.1:8080/photoshopCC-V19.1.6-2018x64.tgz"
     local filepath="/home/catalyst/Desktop"
 
