@@ -72,7 +72,7 @@ function main() {
 function replacement() {
     local filename="replacement.tgz"
     local filemd5="6441a8e77c082897a99c2b7b588c9ac4"
-    local filelink="https://www.dropbox.com/s/17pv6aezl7wz6gs/replacement.tgz?dl=1"
+    local filelink="https://uc6b074d9a609d96042966688316.dl.dropboxusercontent.com/cd/0/get/COgzRuoc-Rrp04DCivv-DpvXsPDcCaIyFXC_30hzRqRL1xvk2A_ltoeb46EivJ0rrSujhAWXITtXOV72d90VG7K7vHbOZkP4HCGbDcN956KVN7lqu8DGkDqBdk2Pw1r-mHNzzeeDGHnHdon3z4KH62jM/file?dl=1#"
     local filepath="$CACHE_PATH/$filename"
 
     download_component $filepath $filemd5 $filelink $filename
